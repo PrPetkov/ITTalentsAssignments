@@ -1,0 +1,35 @@
+Judge: Pesho
+Jury: 
+kaka penka
+kaka ginka
+kaka lara
+Defendant: pencho
+Prosecutor : gencho
+Witneses: 
+dido
+
+I, chicho gosho, am asking pencho a qestion.
+I, chicho gosho, am asking pencho a qestion.
+I, chicho gosho, am asking pencho a qestion.
+I, chicho gosho, am asking dido a qestion.
+I, chicho gosho, am asking dido a qestion.
+
+
+kaka penka - quilty
+
+kaka ginka - not quilty
+
+kaka lara - quilty
+
+7 years in prison.
+
+Judge: Pesho
+Jury: 
+kaka penka
+kaka ginka
+kaka lara
+Defendant: pencho
+Prosecutor : gencho
+Witneses: 
+dido
+
