@@ -14,5 +14,4 @@ public class SalaryComparator implements Comparator<Employee> {
 		
 		return (o1.getSalary() > o2.getSalary()) ? 1 : -1;
 	}
-
 }
