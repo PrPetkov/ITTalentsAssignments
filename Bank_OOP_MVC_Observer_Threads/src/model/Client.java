@@ -2,7 +2,7 @@ package model;
 
 import java.util.*;
 
-import Interfaces.IObserver;
+import interfaces.IObserver;
 import model.Bank.CreditType;
 import model.Bank.DepositType;
 
@@ -39,7 +39,9 @@ public class Client implements Runnable, IObserver{
 	public double getKeshMoney() {
 		return keshMoney;
 	}
-	
+	/**
+	 * Perform predefined actions to request bank products
+	 */
 	@Override
 	public void run() {	
 		Random rnd = new Random();
@@ -81,7 +83,9 @@ public class Client implements Runnable, IObserver{
 			this.keshMoney += credit.getAmmount();
 		}
 	}
-	
+	/**
+	 * Iterates over credits and pays the monthly payments
+	 */
 	public void payMonthlyPayments(){
 		for (Credit credit : credits) {
 			credit.getBank().takeCreditPayment(credit.getMonthlyPayment());
@@ -94,8 +98,12 @@ public class Client implements Runnable, IObserver{
 	public void takeMonthlyRevenue(double revenue){
 		this.keshMoney += revenue;
 	}
-	
-	public double takeDeptToSalary(double newPayment){
+	/**
+	 * Calculates the ratio of the monthly payments to the salary
+	 * @param newPayment the payment for the credit that the client applies for
+	 * @return the debt to salary ratio
+	 */
+	public double takeDebtToSalaryRatio(double newPayment){
 		double totalPayments = newPayment;
 		
 		for (Credit credit : credits) {
@@ -149,7 +157,9 @@ public class Client implements Runnable, IObserver{
 		
 		return builder.toString();
 	}
-
+	/**
+	 * Pay the monthly payments for the credits
+	 */
 	@Override
 	public void update(String message) {
 		this.recieveSalary();

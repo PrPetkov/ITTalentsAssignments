@@ -28,7 +28,9 @@ public abstract class Account {
 	}
 
 	protected void setPeriodMonths(int periodMonths) {
-		this.periodMonths = periodMonths;
+		if (periodMonths >= 0) {
+			this.periodMonths = periodMonths;	
+		}
 	}
 
 	public Bank getBank() {

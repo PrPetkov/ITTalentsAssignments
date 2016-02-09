@@ -2,8 +2,8 @@ package model;
 
 import java.util.ArrayList;
 
-import Interfaces.IObservedSubject;
-import Interfaces.IObserver;
+import interfaces.IObservedSubject;
+import interfaces.IObserver;
 
 public class Time implements IObservedSubject{
 

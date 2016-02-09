@@ -2,10 +2,8 @@ package controlers;
 
 import java.util.ArrayList;
 
-import Interfaces.IView;
-import model.Bank;
-import model.Client;
-import model.Time;
+import interfaces.IView;
+import model.*;
 
 public class ContinueMonthsControler {
 	
@@ -21,8 +19,12 @@ public class ContinueMonthsControler {
 		this.clients = clients;
 		this.time = new Time();
 	}
-	
+	/**
+	 * This method simulates the passing of one month.
+	 * It notifies the model to perform monthly actions
+	 */
 	public void addMonths(){
+		//register all the observers, that are affected by the time change
 		time.registerObserver(bank);
 		
 		for (Client client : this.clients) {
@@ -30,8 +32,9 @@ public class ContinueMonthsControler {
 		}
 		
 		while (true) {
+			//the time object keeps track of the passed time and notifies the observers
 			time.passOneMonth();
-			
+			//draw the output
 			viewRenderer.render("Month: " + time.getMonthPassed());
 			
 			viewRenderer.render(bank.toString());
@@ -41,6 +44,7 @@ public class ContinueMonthsControler {
 			}
 			
 			try {
+				//make the demo sleep for a second to improve visibility
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();

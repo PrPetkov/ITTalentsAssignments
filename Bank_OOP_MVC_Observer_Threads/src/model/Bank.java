@@ -2,8 +2,8 @@ package model;
 
 import java.util.ArrayList;
 
-import Interfaces.IObservedSubject;
-import Interfaces.IObserver;
+import interfaces.IObservedSubject;
+import interfaces.IObserver;
 
 public class Bank implements IObservedSubject, IObserver{
 
@@ -21,12 +21,18 @@ public class Bank implements IObservedSubject, IObserver{
 	public Bank(String name, String address, double monney) {
 		this.name = name;
 		this.address = address;
-		this.monney = monney;
+		this.setMonney(monney);
 		
 		this.observers = new ArrayList<>();
 		this.accounts = new ArrayList<>();
 	}
 	
+	private void setMonney(double monney) {
+		if (monney > 0) {
+			this.monney = monney;
+		}
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -42,8 +48,18 @@ public class Bank implements IObservedSubject, IObserver{
 	public double getMinReservs() {
 		return minReservs;
 	}
-
+	/**
+	 * Makes deposit, when requested
+	 * @param type The type of the deposit according to the bank conditions
+	 * @param ammount The amount of money of the deposit
+	 * @param client The client, that requests the deposit
+	 * @return If the parameters are correct returns the new deposit, else returns null
+	 */
 	public synchronized Deposit makeDeposit(DepositType type, double ammount, Client client){
+		if (ammount <= 0) {
+			return null;
+		}
+		
 		Deposit deposit = null;
 		
 		switch (type) {
@@ -58,9 +74,9 @@ public class Bank implements IObservedSubject, IObserver{
 		
 		if (deposit != null) {
 			this.accounts.add(deposit);
-			this.monney += deposit.getAmmount();
+			this.setMonney(this.monney + deposit.getAmmount());
 			this.minReservs += 0.1 * deposit.getAmmount();
-			
+			//Notify the observers about the new product
 			this.notifyObservers("A deposit for" + deposit.getAmmount() + ", was made, Bank ballance: " + this.monney + 
 					" minimal reserves: " + this.minReservs);
 			
@@ -69,8 +85,19 @@ public class Bank implements IObservedSubject, IObserver{
 		
 		return null;
 	}
-	
+	/**
+	 * Evaluates credit application according to the bank policy
+	 * @param type The type of the credit according to the bank conditions
+	 * @param client The client, that requests the credit
+	 * @param ammount The amount of money of the credit
+	 * @param months The period of the credit
+	 * @return returns the credit if the request is approved or null if the request is declined
+	 */
 	public synchronized Credit processCreditApplication(CreditType type, Client client, double ammount, int months){
+		if (ammount <= 0 || months <= 0) {
+			return null;
+		}
+		
 		if ((this.monney - ammount) < this.minReservs) {
 			return null;
 		}
@@ -88,10 +115,10 @@ public class Bank implements IObservedSubject, IObserver{
 			break;
 		}
 		
-		if (credit != null && client.takeDeptToSalary(credit.getMonthlyPayment()) <= 0.5) {
+		if (credit != null && client.takeDebtToSalaryRatio(credit.getMonthlyPayment()) <= 0.5) {
 			this.accounts.add(credit);
 			this.monney -= credit.getAmmount();
-			
+			//Notify the observers about the new product
 			this.notifyObservers("A credit was given, " + credit.getAmmount() + "lv, for " + 
 			credit.getPeriodMonths() + "months, Bank ballance: " + this.monney);
 			
@@ -100,7 +127,10 @@ public class Bank implements IObservedSubject, IObserver{
 		
 		return null;
 	}
-	
+	/**
+	 * Iterates the bank products and pays revenue to deposit owners.
+	 * If the deposit is matured restarts it.
+	 */
 	public synchronized void payDepositRevenue(){
 		for (Account account : accounts) {
 			if (account instanceof Deposit) {
@@ -115,9 +145,14 @@ public class Bank implements IObservedSubject, IObserver{
 			}
 		}
 	}
-	
+	/**
+	 * Takes monthly payments from customers
+	 * @param ammount the monthly payment
+	 */
 	public synchronized void takeCreditPayment(double ammount){
-		this.monney += ammount;
+		if (ammount > 0) {
+			this.setMonney(this.monney + ammount);
+		}
 	}
 
 	@Override
@@ -160,7 +195,9 @@ public class Bank implements IObservedSubject, IObserver{
 		
 		return builder.toString();
 	}
-
+	/**
+	 * Pay deposit revenue
+	 */
 	@Override
 	public synchronized void update(String message) {
 		this.payDepositRevenue();	
