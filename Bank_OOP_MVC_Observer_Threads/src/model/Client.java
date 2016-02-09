@@ -2,30 +2,33 @@ package model;
 
 import java.util.*;
 
+import exceptions.DeniedCreditException;
+import exceptions.DepositException;
+import interfaces.IObservedSubject;
 import interfaces.IObserver;
 import model.Bank.CreditType;
 import model.Bank.DepositType;
 
-public class Client implements Runnable, IObserver{
+public class Client implements IObserver, IObservedSubject{
 
 	private String name;
 	private String address;
 	private double keshMoney;
 	private double salary;
-	private Bank bank;
 	
 	private ArrayList<Deposit> deposits;
 	private ArrayList<Credit> credits;
+	private ArrayList<IObserver> observers;
 	
-	public Client(String name, String address, double keshMoney, double salary, Bank bank) {
+	public Client(String name, String address, double keshMoney, double salary) {
 		this.name = name;
 		this.address = address;
 		this.keshMoney = keshMoney;
 		this.salary = salary;
-		this.bank = bank;
 		
 		this.deposits = new ArrayList<>();
 		this.credits = new ArrayList<>();
+		this.observers = new ArrayList<>();
 	}
 	
 	public String getName() {
@@ -39,50 +42,32 @@ public class Client implements Runnable, IObserver{
 	public double getKeshMoney() {
 		return keshMoney;
 	}
-	/**
-	 * Perform predefined actions to request bank products
-	 */
-	@Override
-	public void run() {	
-		Random rnd = new Random();
-		
-		int depositPercentage = rnd.nextInt(19) + 80;
-		
-		if (rnd.nextBoolean()) {
-			this.makeDeposit(DepositType.Short, (depositPercentage * this.keshMoney) / 100, this.bank);
-		}else {
-			this.makeDeposit(DepositType.Long, (depositPercentage * this.keshMoney) / 100, this.bank);
-		}
-		
-		if (rnd.nextBoolean()) {
-			this.applyForCredit(CreditType.Consumer, rnd.nextInt(108) + 12,rnd.nextInt(39_000) + 1_000, bank);
-		}else {
-			this.applyForCredit(CreditType.Home, rnd.nextInt(240) + 36,rnd.nextInt(200_000) + 10_000, bank);
-		}
-	}
 	
 	public void makeDeposit(DepositType type, double ammount, Bank bank){
 		if (this.keshMoney <= ammount) {
 			return;
 		}
 		
-		Deposit deposit = bank.makeDeposit(type, ammount, this);
-		
-		if (deposit != null) {
+		try {
+			Deposit deposit = bank.makeDeposit(type, ammount, this);
 			this.deposits.add(deposit);
 			this.keshMoney -= deposit.getAmmount();
+		} catch (DepositException e) {
+			this.notifyObservers(e.getMessage());
 		}
 	}
 	
 	public void applyForCredit(CreditType type, int months, double ammount, Bank bank){
-		Credit credit = bank.processCreditApplication(type, this, ammount, months);
-		
-		if (credit != null) {
+		try {
+			Credit credit = bank.processCreditApplication(type, this, ammount, months);
 			this.credits.add(credit);
 			
 			this.keshMoney += credit.getAmmount();
+		} catch (DeniedCreditException e) {
+			this.notifyObservers(e.getMessage());
 		}
 	}
+	
 	/**
 	 * Iterates over credits and pays the monthly payments
 	 */
@@ -98,6 +83,7 @@ public class Client implements Runnable, IObserver{
 	public void takeMonthlyRevenue(double revenue){
 		this.keshMoney += revenue;
 	}
+	
 	/**
 	 * Calculates the ratio of the monthly payments to the salary
 	 * @param newPayment the payment for the credit that the client applies for
@@ -157,6 +143,7 @@ public class Client implements Runnable, IObserver{
 		
 		return builder.toString();
 	}
+	
 	/**
 	 * Pay the monthly payments for the credits
 	 */
@@ -172,5 +159,24 @@ public class Client implements Runnable, IObserver{
 				i--;
 			}
 		}
+	}
+	
+	@Override
+	public void registerObserver(IObserver observer) {
+		this.observers.add(observer);		
+	}
+
+	@Override
+	public void unRegisterObserver(IObserver observer) {
+		this.observers.remove(observer);		
+	}
+
+	@Override
+	public void notifyObservers(String message) {
+		for (IObserver observer : this.observers) {
+			if (observer != null) {
+				observer.update(message);	
+			}
+		}		
 	}
 }

@@ -2,6 +2,8 @@ package model;
 
 import java.util.ArrayList;
 
+import exceptions.DeniedCreditException;
+import exceptions.DepositException;
 import interfaces.IObservedSubject;
 import interfaces.IObserver;
 
@@ -53,11 +55,12 @@ public class Bank implements IObservedSubject, IObserver{
 	 * @param type The type of the deposit according to the bank conditions
 	 * @param ammount The amount of money of the deposit
 	 * @param client The client, that requests the deposit
-	 * @return If the parameters are correct returns the new deposit, else returns null
+	 * @return the new deposit
+	 * @throws DepositException 
 	 */
-	public synchronized Deposit makeDeposit(DepositType type, double ammount, Client client){
+	public synchronized Deposit makeDeposit(DepositType type, double ammount, Client client) throws DepositException{
 		if (ammount <= 0) {
-			return null;
+			throw new DepositException("The amount of the deposit must be bigger than 0");
 		}
 		
 		Deposit deposit = null;
@@ -68,22 +71,21 @@ public class Bank implements IObservedSubject, IObserver{
 			break;
 		case Long:
 			deposit = new Deposit("LongTerm", 12, 0.05, ammount, client, this);
-		default:
 			break;
+		default:
+			throw new DepositException("The bank does not have deposit type " + type);
 		}
 		
-		if (deposit != null) {
-			this.accounts.add(deposit);
-			this.setMonney(this.monney + deposit.getAmmount());
-			this.minReservs += 0.1 * deposit.getAmmount();
-			//Notify the observers about the new product
-			this.notifyObservers("A deposit for" + deposit.getAmmount() + ", was made, Bank ballance: " + this.monney + 
-					" minimal reserves: " + this.minReservs);
-			
-			return deposit;
-		}
+
+		this.accounts.add(deposit);
+		this.setMonney(this.monney + deposit.getAmmount());
+		this.minReservs += 0.1 * deposit.getAmmount();
+		//Notify the observers about the new product
+		this.notifyObservers("A deposit for" + deposit.getAmmount() + ", was made, Bank ballance: " + this.monney + 
+				" minimal reserves: " + this.minReservs);
 		
-		return null;
+		return deposit;
+
 	}
 	/**
 	 * Evaluates credit application according to the bank policy
@@ -92,14 +94,15 @@ public class Bank implements IObservedSubject, IObserver{
 	 * @param ammount The amount of money of the credit
 	 * @param months The period of the credit
 	 * @return returns the credit if the request is approved or null if the request is declined
+	 * @throws DeniedCreditException 
 	 */
-	public synchronized Credit processCreditApplication(CreditType type, Client client, double ammount, int months){
+	public synchronized Credit processCreditApplication(CreditType type, Client client, double ammount, int months) throws DeniedCreditException{
 		if (ammount <= 0 || months <= 0) {
-			return null;
+			throw new DeniedCreditException("The amount and period must be positive");
 		}
 		
 		if ((this.monney - ammount) < this.minReservs) {
-			return null;
+			throw new DeniedCreditException("The credit application is requested, due to unsuficient funds");
 		}
 		
 		Credit credit = null;
@@ -112,10 +115,10 @@ public class Bank implements IObservedSubject, IObserver{
 			credit = new Credit("Consumer", months, 0.1, ammount, client, this);
 			break;
 		default:
-			break;
+			throw new DeniedCreditException("the Bank does not have credit type " + type);
 		}
 		
-		if (credit != null && client.takeDebtToSalaryRatio(credit.getMonthlyPayment()) <= 0.5) {
+		if (client.takeDebtToSalaryRatio(credit.getMonthlyPayment()) <= 0.5) {
 			this.accounts.add(credit);
 			this.monney -= credit.getAmmount();
 			//Notify the observers about the new product
@@ -123,10 +126,11 @@ public class Bank implements IObservedSubject, IObserver{
 			credit.getPeriodMonths() + "months, Bank ballance: " + this.monney);
 			
 			return credit;
+		} else {
+			throw new DeniedCreditException("Credit requested due to debt to salary ratio");
 		}
-		
-		return null;
 	}
+	
 	/**
 	 * Iterates the bank products and pays revenue to deposit owners.
 	 * If the deposit is matured restarts it.
