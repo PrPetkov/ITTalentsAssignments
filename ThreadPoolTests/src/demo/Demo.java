@@ -2,6 +2,7 @@ package demo;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Demo {
 
@@ -58,9 +59,15 @@ public class Demo {
 		
 		executor.shutdown();
 		// waits for production threads to finish work
-		while (!executor.isTerminated()){}
+		try {
+			executor.awaitTermination(15_000, TimeUnit.MILLISECONDS);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
-		System.out.println("All done for: " + (System.currentTimeMillis() - startTime));	
+		String state = (executor.isTerminated()) ? "All done for: " : "The job was not finisshed on time, time passed: ";
+		
+		System.out.println(state + (System.currentTimeMillis() - startTime));	
 	}
 
 }

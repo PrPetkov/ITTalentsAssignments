@@ -1,6 +1,8 @@
 package launcher;
 
 import controlers.InitializeControler;
+import interfaces.IView;
+import views.*;
 
 public class Launcher {
 	/**
@@ -9,7 +11,9 @@ public class Launcher {
 	 */
 	public static void main(String[] args) {
 		
-		InitializeControler controler = new InitializeControler();
+		IView outputWriter = new ConsoleView();
+		
+		InitializeControler controler = new InitializeControler(outputWriter);
 		controler.initialize();
 	}
 

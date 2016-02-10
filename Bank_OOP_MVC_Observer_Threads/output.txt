@@ -1,0 +1,1882 @@
+A deposit for1488.0, was made, Bank ballance: 501488.0 minimal reserves: 148.8
+----------------
+A deposit for1640.0, was made, Bank ballance: 503128.0 minimal reserves: 312.8
+----------------
+A deposit for1577.0, was made, Bank ballance: 504705.0 minimal reserves: 470.5
+----------------
+A deposit for924.0, was made, Bank ballance: 505629.0 minimal reserves: 562.9
+----------------
+A deposit for1581.0, was made, Bank ballance: 507210.0 minimal reserves: 721.0
+----------------
+A deposit for1692.0, was made, Bank ballance: 508902.0 minimal reserves: 890.2
+----------------
+A credit was given, 31821.0lv, for 105months, Bank ballance: 477081.0
+----------------
+A deposit for1148.0, was made, Bank ballance: 478229.0 minimal reserves: 1005.0
+----------------
+A deposit for1470.0, was made, Bank ballance: 479699.0 minimal reserves: 1152.0
+----------------
+A deposit for1131.0, was made, Bank ballance: 480830.0 minimal reserves: 1265.1
+----------------
+A deposit for1140.0, was made, Bank ballance: 481970.0 minimal reserves: 1379.1
+----------------
+A credit was given, 21391.0lv, for 68months, Bank ballance: 460579.0
+----------------
+Credit requested due to debt to salary ratio
+----------------
+Credit requested due to debt to salary ratio
+----------------
+A credit was given, 3431.0lv, for 106months, Bank ballance: 457148.0
+----------------
+Credit requested due to debt to salary ratio
+----------------
+Credit requested due to debt to salary ratio
+----------------
+Credit requested due to debt to salary ratio
+----------------
+Credit requested due to debt to salary ratio
+----------------
+Credit requested due to debt to salary ratio
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 457148.0
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Month: 1
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 458190.6510967972
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 885.24
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 2 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 971.4
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 2 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 1273.7125
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 11 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 1556.7833333333333
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 11 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 22434.293137254903
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 21076.426470588234
+Period left: 67 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 11 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 1818.2
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 11 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 5395.627908805031
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3398.632075471698
+Period left: 105 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 11 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 33477.68785714285
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 31517.942857142858
+Period left: 104 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 2 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 2629.570833333333
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 11 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 2866.8333333333335
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 11 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 2
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 459233.3021935944
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 1594.48
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 1 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 1882.8
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 1 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 2378.425
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 10 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 2861.5666666666666
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 10 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 23447.586274509806
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 20759.23149509804
+Period left: 66 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 10 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 3524.4
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 10 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 7241.255817610063
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3365.9944182389936
+Period left: 104 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 10 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 35026.37571428571
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 31212.36023809524
+Period left: 103 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 1 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 4936.141666666666
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 10 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 5373.666666666667
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 10 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 3
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 460275.9532903916
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 2303.7200000000003
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 3 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 2794.2
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 3 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 3483.1375000000003
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 9 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 4166.35
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 9 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 24460.87941176471
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 20439.393228145425
+Period left: 65 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 9 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 5230.6
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 9 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 9086.883726415093
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3333.08478052935
+Period left: 103 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 9 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 36575.06357142856
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 30904.231097222222
+Period left: 102 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 3 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 7242.7125
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 9 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 7880.5
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 9 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 4
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 461318.6043871888
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 3012.96
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 2 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 3705.6
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 2 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 4587.85
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 8 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 5471.133333333334
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 8 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 25474.17254901961
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 20116.88964230154
+Period left: 64 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 8 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 6936.8
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 8 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 10932.511635220124
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3299.900895838793
+Period left: 102 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 8 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 38123.75142857141
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 30593.5342135086
+Period left: 101 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 2 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 9549.283333333333
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 8 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 10387.333333333332
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 8 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 5
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 462361.255483986
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 3722.2
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 1 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 4617.0
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 1 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 5692.5625
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 7 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 6775.916666666668
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 7 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 26487.465686274514
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 19791.69852657562
+Period left: 63 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 7 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 8643.0
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 7 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 12778.139544025154
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3266.4404787758144
+Period left: 101 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 7 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 39672.43928571427
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 30280.24818909736
+Period left: 100 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 1 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 11855.854166666666
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 7 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 12894.166666666666
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 7 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 6
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 463403.9065807832
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 4431.44
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 3 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 5528.4
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 3 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 6797.275
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 6 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 8080.700000000002
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 6 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 27500.758823529417
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 19463.79748488532
+Period left: 62 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 6 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 10349.2
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 6 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 14623.767452830185
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3232.7012249039776
+Period left: 100 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 6 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 41221.12714285712
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 29964.35144781603
+Period left: 99 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 3 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 14162.425
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 6 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 15401.0
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 6 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 7
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 464446.5576775804
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 5140.679999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 2 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 6439.799999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 2 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 7901.987499999999
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 5 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 9385.483333333335
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 5 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 28514.05196078432
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 19133.163934514265
+Period left: 61 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 5 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 12055.400000000001
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 5 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 16469.395361635216
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3198.6808105832088
+Period left: 99 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 5 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 42769.81499999997
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 29645.822233690687
+Period left: 98 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 2 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 16468.995833333334
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 5 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 17907.833333333336
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 5 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 8
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 465489.2087743776
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 5849.919999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 1 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 7351.199999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 1 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 9006.699999999999
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 4 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 10690.266666666668
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 4 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 29527.345098039223
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 18799.775104556786
+Period left: 60 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 4 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 13761.600000000002
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 4 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 18315.023270440248
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3164.376892809767
+Period left: 98 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 4 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 44318.50285714283
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 29324.638609447633
+Period left: 97 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 1 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 18775.56666666667
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 4 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 20414.666666666668
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 4 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 9
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 466531.8598711748
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 6559.159999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 3 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 8262.599999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 3 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 10111.412499999999
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 3 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 11995.050000000001
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 3 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 30540.638235294125
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 18463.60803434966
+Period left: 59 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 3 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 15467.800000000003
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 3 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 20160.65117924528
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3129.7871090548797
+Period left: 97 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 3 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 45867.19071428568
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 29000.778455002554
+Period left: 96 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 3 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 21082.137500000004
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 3 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 22921.5
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 3 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 10
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 467574.510967972
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 7268.399999999999
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 2 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 9173.999999999998
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 2 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 11216.124999999998
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 2 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 13299.833333333334
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 2 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 31553.93137254903
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 18124.63957189081
+Period left: 58 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 2 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 17174.000000000004
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 2 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 22006.279088050313
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3094.909077102035
+Period left: 96 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 2 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 47415.87857142853
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 28674.219465937098
+Period left: 95 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 2 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 23388.70833333334
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 2 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 25428.333333333332
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 2 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 11
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 468617.1620647692
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 7977.6399999999985
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 1 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 10085.399999999998
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 1 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 12320.837499999998
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 1 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 14604.616666666667
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 1 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 32567.22450980393
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 17782.846372244803
+Period left: 57 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 1 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 18880.200000000004
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 1 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 23851.906996855345
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3059.740394882917
+Period left: 95 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 1 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 48964.56642857139
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 28344.939151962764
+Period left: 94 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 1 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 25695.279166666674
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 1 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 27935.166666666664
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 1 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------
+Month: 12
+----------------
+Bank name: RBB
+Address: Vapcarov 55
+Ballance: 469659.8131615664
+Minimal reserves: 1379.1
+Bank products count: 13
+----------------
+Client name: Client 1
+Address: Moon
+Money ballance: 8686.879999999997
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 924.0
+Period left: 3 mounths.
+Salary :700.0
+Credits : 0.0
+
+----------------
+Client name: Client 2
+Address: Moon
+Money ballance: 10996.799999999997
+Bank products: 
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1140.0
+Period left: 3 mounths.
+Salary :900.0
+Credits : 0.0
+
+----------------
+Client name: Client 3
+Address: Moon
+Money ballance: 13425.549999999997
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1131.0
+Period left: 12 mounths.
+Salary :1100.0
+Credits : 0.0
+
+----------------
+Client name: Client 4
+Address: Moon
+Money ballance: 15909.4
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1148.0
+Period left: 12 mounths.
+Salary :1300.0
+Credits : 0.0
+
+----------------
+Client name: Client 5
+Address: Moon
+Money ballance: 33580.51764705883
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 17438.20489593508
+Period left: 56 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1470.0
+Period left: 12 mounths.
+Salary :1500.0
+Credits : 492.831862745098
+
+----------------
+Client name: Client 6
+Address: Moon
+Money ballance: 20586.400000000005
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1488.0
+Period left: 12 mounths.
+Salary :1700.0
+Credits : 0.0
+
+----------------
+Client name: Client 7
+Address: Moon
+Money ballance: 25697.534905660377
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 3024.2786403119726
+Period left: 94 mounths.
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1581.0
+Period left: 12 mounths.
+Salary :1900.0
+Credits : 60.95959119496856
+
+----------------
+Client name: Client 8
+Address: Moon
+Money ballance: 50513.25428571424
+Bank products: 
+Credit: 
+Type: Consumer
+Bank: RBB
+Ammount: 28012.91483537198
+Period left: 93 mounths.
+Deposit: 
+Type: ShortTerm
+Bank: RBB
+Ammount: 1692.0
+Period left: 3 mounths.
+Salary :2100.0
+Credits : 568.2321428571429
+
+----------------
+Client name: Client 9
+Address: Moon
+Money ballance: 28001.85000000001
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1577.0
+Period left: 12 mounths.
+Salary :2300.0
+Credits : 0.0
+
+----------------
+Client name: Client 10
+Address: Moon
+Money ballance: 30441.999999999996
+Bank products: 
+Deposit: 
+Type: LongTerm
+Bank: RBB
+Ammount: 1640.0
+Period left: 12 mounths.
+Salary :2500.0
+Credits : 0.0
+
+----------------

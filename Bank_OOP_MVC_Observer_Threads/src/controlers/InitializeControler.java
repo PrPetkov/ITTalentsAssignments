@@ -15,7 +15,12 @@ public class InitializeControler implements IObserver{
 	ArrayList<Client> clients;
 	ArrayList<Thread> threads;
 	IView viewRenderer;
-	
+		
+	public InitializeControler(IView viewRenderer) {
+		super();
+		this.viewRenderer = viewRenderer;
+	}
+
 	/**
 	 * Generates clients and a bank. Clients apply for bank products
 	 */
@@ -23,8 +28,6 @@ public class InitializeControler implements IObserver{
 		//set up the resources
 		this.bank = new Bank("RBB", "Vapcarov 55", 500_000);
 		this.bank.registerObserver(this);
-		
-		this.viewRenderer = new ConsoleView();
 		
 		this.threads = new ArrayList<>();
 		this.clients = new ArrayList<>();
